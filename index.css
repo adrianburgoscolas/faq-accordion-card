@@ -146,7 +146,7 @@ p {
     .box-img {
         position: absolute;
         width: 200px;
-        z-index: 1;
+        z-index: 5;
         margin-left: -537px;
         margin-top: 225px;
     }
@@ -154,11 +154,13 @@ p {
         margin-top: 47px;
         margin-left: -170px;
         width: 470px;
+        z-index: 2;
     }
     .shadow-img-desktop {
         margin-top: -735px;
         margin-left: -690px;
         width: 990px;
+        z-index: 1;
     }
     body:focus-within .box-img {
         transform: translate(-40px);
